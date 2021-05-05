@@ -15,7 +15,17 @@
           <a href="{{ .link | relLangURL }}" class="btn btn-main animated fadeInUp">{{ .label }}</a>
           {{ end }}
           {{ end }}
+          <ul class="social-icons">
+            {{ range site.Params.social }}
+            <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+            {{ end }}
+          </ul>
         </div>
+        <!-- <ul class="social-icons">
+          {{ range site.Params.social }}
+          <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+          {{ end }}
+        </ul> -->
       </div>
     </div>
   </div>
