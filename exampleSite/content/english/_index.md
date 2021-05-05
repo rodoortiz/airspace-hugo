@@ -6,7 +6,7 @@ banner:
   title: Rodolfo Ortiz
   content: Audio Engineer & Electronic Engineer
   button:
-    enable: true
+    enable: false
     label: Discover Our Project
     link: project
 about:
