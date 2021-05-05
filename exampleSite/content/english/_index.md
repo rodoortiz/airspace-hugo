@@ -1,17 +1,17 @@
 ---
 banner:
   enable: true
-  bg_image: images/slider-bg.jpg
+  bg_image: images/Bckgnd.jpg
   bg_overlay: true
-  title: Rodolfo Ortiz
-  content: Audio Engineer & Electronic Engineer
+  title: I'm Rodolfo Ortiz
+  content: An Audio Engineer & Electronic Engineer
   button:
     enable: false
     label: Discover Our Project
     link: project
 about:
   enable: true
-  title: About Us
+  title: About Me
   description: Far far away, behind the word mountains, far from the countries Vokalia
     and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
     right at the coast of the Semantics

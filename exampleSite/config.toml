@@ -214,20 +214,14 @@ preloader = ""
 [params.widgets]
 sidebar = ["recent_posts", "taxonomy_category", "taxonomy_tags"]
 [[params.social]]
-icon = "ion-social-googleplus-outline"
-link = "#"
+icon = "ion-social-github"
+link = "https://github.com/rodoortiz"
 [[params.social]]
-icon = "ion-social-linkedin-outline"
-link = "#"
+icon = "ion-social-twitter"
+link = "https://twitter.com/rodoortiz94"
 [[params.social]]
-icon = "ion-social-pinterest-outline"
-link = "#"
+icon = "ion-social-linkedin"
+link = "https://www.linkedin.com/in/rodolfo-ortiz-torres-a24507123"
 [[params.social]]
-icon = "ion-social-dribbble-outline"
-link = "#"
-[[params.social]]
-icon = "ion-social-twitter-outline"
-link = "#"
-[[params.social]]
-icon = "ion-social-facebook-outline"
+icon = "ion-social-youtube"
 link = "#"
