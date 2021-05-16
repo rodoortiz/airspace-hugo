@@ -21,6 +21,11 @@
             {{ end }}
           </ul>
         </div>
+        <!-- <ul class="social-icons">
+          {{ range site.Params.social }}
+          <li><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+          {{ end }}
+        </ul> -->
       </div>
     </div>
   </div>
@@ -102,7 +107,7 @@
       </div>
     </div>
     <div class="row">
-      <!-- <div class="col-md-6">
+      <div class="col-md-6">
         <div class="block">
           <ul class="counter-box clearfix">
             {{ range .funfact_item }}
@@ -114,7 +119,7 @@
             {{ end }}
           </ul>
         </div>
-      </div> -->
+      </div>
       <div class="col-md-5 col-md-offset-1">
         <div class="testimonial-carousel text-center">
           <div class="testimonial-slider owl-carousel">
