@@ -5,6 +5,6 @@ bg_image: images/feature-bg.jpg
 menu:
   main:
     name: Project
-    weight: 22
+    weight: 1
 
 ---

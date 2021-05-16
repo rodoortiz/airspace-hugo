@@ -6,40 +6,6 @@ paginate = "4"
 summaryLength = "30"
 theme = "airspace-hugo"
 title = "Rodolfo Ortiz Website"
-[languages.de]
-contentDir = "content/german"
-copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). Alle Rechte vorbehalten."
-languageCode = "de-DE"
-languageName = "Deutsch"
-weight = 3
-[[languages.de.menu.footer]]
-URL = "about"
-name = "Über"
-weight = 1
-[[languages.de.menu.footer]]
-URL = "project"
-name = "Projekt"
-weight = 2
-[[languages.de.menu.footer]]
-URL = "service"
-name = "Dienstleistung"
-weight = 3
-[[languages.de.menu.footer]]
-URL = "pricing"
-name = "Preise"
-weight = 4
-[[languages.de.menu.footer]]
-URL = "faq"
-name = "Häufige Fragen"
-weight = 5
-[[languages.de.menu.footer]]
-URL = "contact"
-name = "Kontakt"
-weight = 6
-[[languages.de.menu.main]]
-hasChildren = true
-name = "Mehr"
-weight = 5
 [languages.en]
 contentDir = "content/english"
 copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). All Rights Reserved."
@@ -108,106 +74,20 @@ weight = 6
 hasChildren = true
 name = "Plus"
 weight = 5
-[languages.it]
-contentDir = "content/italian"
-copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). Tutti i diritti riservati."
-languageCode = "it-IT"
-languageName = "Italiano"
-weight = 2
-[[languages.it.menu.footer]]
-URL = "about"
-name = "Chi siamo"
-weight = 1
-[[languages.it.menu.footer]]
-URL = "project"
-name = "Progetto"
-weight = 2
-[[languages.it.menu.footer]]
-URL = "service"
-name = "Servizio"
-weight = 3
-[[languages.it.menu.footer]]
-URL = "pricing"
-name = "Tariffazione"
-weight = 4
-[[languages.it.menu.footer]]
-URL = "faq"
-name = "Domande frequenti"
-weight = 5
-[[languages.it.menu.footer]]
-URL = "contact"
-name = "Contatta"
-weight = 6
-[[languages.it.menu.main]]
-hasChildren = true
-name = "Più"
-weight = 5
 [markup.goldmark.renderer]
 unsafe = true
 [markup.tableOfContents]
 endLevel = 6
 ordered = false
 startLevel = 2
-[[menu.main]]
-identifier = "blog"
-name = "Blog"
-weight = 24
-[[menu.main]]
-name = "Servizio"
-parent = "More"
-weight = 1
-[[menu.main]]
-name = "Progetto"
-weight = 16
-[[menu.main]]
-name = "Tariffazione"
-parent = "More"
-weight = 8
-[[menu.main]]
-name = "Domande frequenti"
-parent = "More"
-weight = 17
-[[menu.main]]
-name = "Contatta"
-weight = 26
-[[menu.main]]
-name = "Chi siamo"
-weight = 9
-[[menu.main]]
-name = "Pagina iniziale"
-weight = 2
-[[menu.main]]
-name = "Dienstleistung"
-parent = "More"
-weight = 3
-[[menu.main]]
-name = "Projekt"
-weight = 18
-[[menu.main]]
-name = "Preise"
-parent = "More"
-weight = 10
-[[menu.main]]
-name = "Häufige Fragen"
-parent = "More"
-weight = 19
-[[menu.main]]
-name = "Kontakt"
-weight = 27
-[[menu.main]]
-name = "Über"
-weight = 11
-[[menu.main]]
-name = "Startseite"
-weight = 4
 [outputs]
 home = ["HTML"]
 [params]
 author = "Themefisher"
 description = "This is meta description"
-image = "images/logo.png"
-logo = "images/logo.png"
-logo_width = "150px"
+image = "images/name.png"
+logo = "images/name.png"
+logo_width = "180px"
 [params.contact]
 address_descriptors = false
 email = "demo@email.com"

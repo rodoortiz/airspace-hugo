@@ -2,12 +2,12 @@
 title: "About Our Company"
 description: "this is meta description"
 bg_image: "images/feature-bg.jpg"
-layout: "about"
+layout: "cv"
 draft: false
 menu:
   main:
-    name: "About"
-    weight: 2
+    name: "CV"
+    weight: 6
 
 
 ################################## About #####################################
