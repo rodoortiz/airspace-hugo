@@ -80,6 +80,58 @@ unsafe = true
 endLevel = 6
 ordered = false
 startLevel = 2
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+weight = 24
+[[menu.main]]
+name = "Servizio"
+parent = "More"
+weight = 1
+[[menu.main]]
+name = "Progetto"
+weight = 16
+[[menu.main]]
+name = "Tariffazione"
+parent = "More"
+weight = 8
+[[menu.main]]
+name = "Domande frequenti"
+parent = "More"
+weight = 17
+[[menu.main]]
+name = "Contatta"
+weight = 26
+[[menu.main]]
+name = "Chi siamo"
+weight = 9
+[[menu.main]]
+name = "Pagina iniziale"
+weight = 2
+[[menu.main]]
+name = "Dienstleistung"
+parent = "More"
+weight = 3
+[[menu.main]]
+name = "Projekt"
+weight = 18
+[[menu.main]]
+name = "Preise"
+parent = "More"
+weight = 10
+[[menu.main]]
+name = "Häufige Fragen"
+parent = "More"
+weight = 19
+[[menu.main]]
+name = "Kontakt"
+weight = 27
+[[menu.main]]
+name = "Über"
+weight = 11
+[[menu.main]]
+name = "Startseite"
+weight = 4
 [outputs]
 home = ["HTML"]
 [params]
